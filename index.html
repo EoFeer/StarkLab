@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarkLab</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/iron-man.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo-img" src="./assets/StarkIndustriesWhite.png" />
+    </header>
+    <main>
+      <audio class="sound" autoplay loop>
+        <source
+          src="./assets/bor-jex-band_iron-man-black-sabbath-mp3-our-favorite-artist-mp3.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+      <div class="box-video">
+        <video
+          class="videoClip"
+          src="./assets/IronMan.mp4"
+          muted
+          autoplay
+          loop
+        ></video>
+        <div class="mascara"></div>
+      </div>
+      <section>
+        <button class="button-section" onclick="JarvisArmor()">
+          J.A.R.V.I.S.
+        </button>
+
+        <h1>MARK I <img class="img-man" src="./assets/iron-man.png" /></h1>
+        <img
+          class="img-sound"
+          src="./assets/volume-up.png"
+          onclick="stopSound()"
+        />
+        <p>
+          Primeira armadura de Tony Stark, movida pelo Reator Arc e equipada com
+          armas improvisadas, símbolo do início da tecnologia do Homem de Ferro.
+        </p>
+      </section>
+      <img class="img-mark" src="./assets/Mark1.png" />
+    </main>
+
+    <div class="containerArmor">
+      <select id="armor-select" class="jarvis-select">
+        <option value="Mark I">Mark I</option>
+        <option value="Mark II">Mark II</option>
+        <option value="Mark III">Mark III</option>
+        <option value="Mark IV">Mark IV</option>
+        <option value="Mark V">Mark V</option>
+        <option value="Mark VI">Mark VI</option>
+        <option value="Mark VII">Mark VII</option>
+        <option value="Mark XVII">Mark XVII(Heartbreaker)</option>
+        <option value="Mark XX">Mark XX(Python)</option>
+        <option value="Mark XXII">Mark XXII(Hotrod)</option>
+        <option value="Mark XXIV">Mark XXIV(Tank)</option>
+        <option value="Mark XLII">Mark XLII</option>
+        <option value="Mark XLIV">Mark XLIV(Hulkbuster)</option>
+        <option value="Mark L">Mark L</option>
+        <option value="Endo-Sym">Endo-Sym</option>
+      </select>
+
+      <button class="armor-button" onclick="Armorchange()">
+        IMPLANTAR ARMADURA
+      </button>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
