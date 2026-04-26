@@ -39,3 +39,4 @@ As imagens das armaduras foram obtidas em <b>DeviantArt</b>, na página do criad
 O projeto tem como objetivo unir <b>programação front-end</b> e <b>cultura pop geek,</b> criando uma experiência visual e interativa que celebra o legado das armaduras de Tony Stark.
 
 ### 🖥️Demonstração
+<img src="https://github.com/EoFeer/StarkLab/blob/master/assets/mockuper-IRON-MAN.png?raw=true" height=800>
